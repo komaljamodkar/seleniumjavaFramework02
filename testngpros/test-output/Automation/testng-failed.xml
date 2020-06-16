@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]" parallel="none">
+  <test name="features(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="testngpros.NewTesttimeout">
+        <methods>
+          <include name="loopin"/>
+        </methods>
+      </class> <!-- testngpros.NewTesttimeout -->
+    </classes>
+  </test> <!-- features(failed) -->
+</suite> <!-- Failed suite [Automation] -->

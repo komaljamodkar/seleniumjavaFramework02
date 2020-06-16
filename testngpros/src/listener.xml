@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+	<listener class-name="testngpros.NewTestListen"/>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="testngpros.DataDriven1"/>
+      <methods>
+      	<include name="setUp"/>
+      	<include name="tearDown"/>
+      </methods>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

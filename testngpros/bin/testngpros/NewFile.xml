@@ -1,0 +1,25 @@
+    
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation" verbose="1" >
+  
+  
+  <parameter name="a" value="5"/>  
+    <parameter name="b" value="3"/>  
+    <test name="add">   
+      <classes>  
+      <class name= "testngpros.ParamTes"/>  
+      </classes>  
+      </test>
+      
+      <parameter name="url" value="http://google.co.in/"/>  
+    
+    <test name="check">   
+      <classes>  
+      <class name= "testngpros.GoogleTest"/>  
+      </classes>  
+      </test>
+ 
+  
+</suite>
+
